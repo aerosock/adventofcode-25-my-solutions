@@ -24,7 +24,7 @@ for (let i = 0; i < (words.length-1); i++) {
     const value = Number(line.slice(1));
     const realvalue = value%100;
     const zerotimes = Math.floor(value/100);
-    // console.log(zerotimes);
+
     zeros += zerotimes;
     console.log(direction, value, pos);
     if (direction == "L"){
@@ -54,9 +54,6 @@ for (let i = 0; i < (words.length-1); i++) {
     }
 
 }
-    //     if (pos == 0){
-    //         zeros++;
-    // }
 }
 console.log(zeros);
 }
